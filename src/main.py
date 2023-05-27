@@ -1,5 +1,5 @@
 # Importar clases 
-
+from Clases.categoria import Categoria
 
 # Menu principal
 def menu():
