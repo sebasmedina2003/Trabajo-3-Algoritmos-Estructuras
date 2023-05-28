@@ -1,4 +1,4 @@
-from categoria import Categoria
+from Clases.categoria import Categoria # Agregue el "Clases." porque me marcaba error att. Marco
 
 class Nodo:
     def __init__(self, valor:Categoria) -> None:
@@ -10,6 +10,8 @@ class Nodo:
 class ArbolBinario:
     """
     No me pregunten como funciona att: Sebastian
+    entendido. att: marco
+    pd: A. att: marco
     """
     def __init__(self) -> None:
         self.raiz = None
@@ -71,7 +73,7 @@ class ArbolBinario:
 """
 Prueba del arbol binario
 """
-
+"""
 arbol = ArbolBinario()
 arbol.insertar(1)
 arbol.insertar(2)
@@ -87,3 +89,4 @@ arbol.preOrder()
 print("\nEliminando el valor 3\n")
 arbol.eliminar(3)
 arbol.preOrder()
+"""
